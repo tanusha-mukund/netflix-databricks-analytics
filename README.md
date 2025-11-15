@@ -2,7 +2,7 @@
 Netflix Content Intelligence Platform built on Databricks
 
 
-🎬 Netflix Content Intelligence Platform
+Netflix Content Intelligence Platform
 Built on Databricks Free Edition using PySpark, SQL, and Python
 
 Author: Tanusha Mukund
@@ -94,7 +94,7 @@ Final cleaned data is written back as a reusable Delta table:
 
 workspace.default.netflix_processed
 
-🛠 Technologies Used
+Technologies Used
 Layer	Technology
 Compute	Databricks Free Edition (serverless)
 Languages	Python, SQL

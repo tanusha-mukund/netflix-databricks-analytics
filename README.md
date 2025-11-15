@@ -87,3 +87,9 @@ Number of countries represented
 Count of unique categories
 Earliest and latest release years
 Average content age
+
+About the Developer
+
+Tanusha Mukund
+M.S. Business Analytics (UIUC)
+Professional experience in Data Analytics, A/B Testing, SQL, Python, Adobe Analytics, and cloud-based data platforms.

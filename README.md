@@ -1,146 +1,89 @@
 # netflix-databricks-analytics
 Netflix Content Intelligence Platform built on Databricks
-
-
-Netflix Content Intelligence Platform
-Built on Databricks Free Edition using PySpark, SQL, and Python
-
 Author: Tanusha Mukund
 
-Overview
+## Overview
 
-The Netflix Content Intelligence Platform is an end-to-end data engineering and analytics project developed entirely using Databricks Free Edition.
+The Netflix Content Intelligence Platform is an end-to-end data engineering and analytics project developed using Databricks Free Edition.It demonstrates a complete workflow across data cleaning, transformation, SQL analytics, visualization, and interactive querying.
+This project illustrates practical experience in:
+Serverless compute environments
+PySpark DataFrame transformations
+Spark SQL analytics
+Feature engineering
+Visualization with Python
+Building a natural language query layer
+The objective is to showcase real-world data engineering and analytics skills within a modern cloud-based workspace.
 
-It showcases the full lifecycle of modern data workflows:
+## Key Features
+### 1. Data Pipeline and Cleaning
 
-Data ingestion using Databricks serverless compute
-
-Cleaning and standardization of messy date formats
-
-Feature engineering for deeper insights
-
-Exploratory analysis using Spark SQL
-
-Interactive visualizations using Pandas, Seaborn, Matplotlib
-
-A simple AI-style natural language query engine
-
-Saving processed data back into Databricks tables
-
-This project demonstrates strong skills in data engineering, analytics, PySpark, and Databricks platform usage — ideal for roles in Data Analytics, Data Engineering, and ML Ops foundations.
-
-Key Features
-1. Data Pipeline & Cleaning
-
-Loaded dataset directly from Databricks table
-
-Standardized inconsistent date formats (multiple patterns: "MMMM d, yyyy", "MMMM yyyy", "yyyy")
-
-Removed malformed values
-
-Created clean columns:
-
+Loaded dataset from Databricks workspace table
+Cleaned and standardized multiple inconsistent date formats
+Removed malformed rows
+Engineered new fields for analysis:
 release_year
-
 release_decade
-
 content_age_years
-
 is_recent
 
-2. Exploratory Data Analysis (Spark SQL)
-- Top content-producing countries
-- Movie vs. TV Show distribution
-- Cleaned category/genre ranking
-- Content trends across decades
+### 2. Exploratory Data Analysis (Spark SQL)
 
-All analysis is done using serverless Spark SQL.
+Analytical queries include:
+Top content-producing countries
+Distribution of Movies vs TV Shows
+Cleaned category/genre analysis
+Content trends across decades
+All analysis is conducted using Spark SQL on serverless clusters.
 
-3. Visualizations
+### 3. Visualizations
 
-Interactive and publication-quality plots using:
+Visualizations were created using Pandas, Seaborn, and Matplotlib, including:
+Content rating distribution
+Top countries by content volume
+Category distributions
+Trend analysis over time
 
-Matplotlib
+### 4. Natural Language Query Engine
 
-Seaborn
+A simple natural-language interface maps user inputs to Spark queries.
+Examples:
 
-Pandas
+“How many movies?”
+“How many TV shows?”
+“Show latest titles”
+“Show oldest titles”
 
-Visuals include:
+### 5. Processed Output Saved Back to Databricks
 
-Top ratings
-
-Top countries
-
-Category popularity
-
-Trend analysis
-
-4. AI-Style Natural Language Query Engine
-
-Simple natural-language analytics queries like:
-
-"How many movies?"
-"How many TV shows?"
-"Show latest titles"
-"Show oldest titles"
-
-
-This converts user queries → Spark logic.
-
-5.Processed Output Stored Back to Databricks
-
-Final cleaned data is written back as a reusable Delta table:
-
+The cleaned dataset is stored as a Delta table for reuse:
 workspace.default.netflix_processed
 
-Technologies Used
-Layer	Technology
-Compute	Databricks Free Edition (serverless)
+##Technologies Used
+
+Component	Technology
+Compute Platform	Databricks Free Edition
 Languages	Python, SQL
-Processing	PySpark (Spark SQL + DataFrame API)
-Visualization	Pandas, Matplotlib, Seaborn
-Storage	Delta Tables on Databricks
-Notebook	Databricks Collaborative Workspace
-📁 Project Structure
-├── Netflix_Content_Analytics.ipynb   # Main Databricks Notebook
-├── README.md                         # Project documentation (this file)
-└── /visuals                          # (Optional) Exported images
+Processing Engine	PySpark (Spark SQL + DataFrame API)
+Visualization	Pandas, Seaborn, Matplotlib
+Storage	Delta Tables
+Project Structure
+Netflix_Content_Analytics.ipynb     # Main notebook  
+README.md                           # Project documentation  
 
 
-Sample Insights Generated
+### Example Insights
 
-United States and India are the largest content producers
+The United States and India produce the most Netflix content
+Movies are more common than TV Shows in the dataset
+Popular ratings include TV-MA, TV-14, and PG-13
+Rapid growth observed in 2010s and 2020s
+International content categories are increasingly prominent
 
-Movies dominate the catalog compared to TV Shows
+### Summary Statistics
 
-Most content is rated TV-MA, TV-14, or PG-13
-
-Significant growth in the 2010s and 2020s
-
-International content categories are becoming increasingly common
-
-📝 Summary Metrics
-
-Includes an automatically generated summary:
-
-Total titles
-
+Automatically generated summary includes:
+Total number of titles
 Number of countries represented
-
-About the Developer
-
-Tanusha Mukund
-MSBA Student @ UIUC · Data Analyst · A/B Testing · SQL · Python · Spark · Adobe Analytics
-
-Connect with me here:
-🔗 LinkedIn: (your link here)
-🔗 GitHub: (your repo link here)
-
-If this project was useful, feel free to star the repo!
-
-Number of unique category types
-
-Range of release years
-
+Count of unique categories
+Earliest and latest release years
 Average content age

@@ -3,11 +3,11 @@ Netflix Content Intelligence Platform built on Databricks
 
 
 🎬 Netflix Content Intelligence Platform
-🔍 Built on Databricks Free Edition using PySpark, SQL, and Python
+Built on Databricks Free Edition using PySpark, SQL, and Python
 
 Author: Tanusha Mukund
 
-📌 Overview
+Overview
 
 The Netflix Content Intelligence Platform is an end-to-end data engineering and analytics project developed entirely using Databricks Free Edition.
 
@@ -29,8 +29,8 @@ Saving processed data back into Databricks tables
 
 This project demonstrates strong skills in data engineering, analytics, PySpark, and Databricks platform usage — ideal for roles in Data Analytics, Data Engineering, and ML Ops foundations.
 
-🧠 Key Features
-1️⃣ Data Pipeline & Cleaning
+Key Features
+1. Data Pipeline & Cleaning
 
 Loaded dataset directly from Databricks table
 
@@ -48,15 +48,15 @@ content_age_years
 
 is_recent
 
-2️⃣ Exploratory Data Analysis (Spark SQL)
-🔹 Top content-producing countries
-🔹 Movie vs. TV Show distribution
-🔹 Cleaned category/genre ranking
-🔹 Content trends across decades
+2. Exploratory Data Analysis (Spark SQL)
+- Top content-producing countries
+- Movie vs. TV Show distribution
+- Cleaned category/genre ranking
+- Content trends across decades
 
 All analysis is done using serverless Spark SQL.
 
-3️⃣ Visualizations
+3. Visualizations
 
 Interactive and publication-quality plots using:
 
@@ -76,7 +76,7 @@ Category popularity
 
 Trend analysis
 
-4️⃣ AI-Style Natural Language Query Engine
+4. AI-Style Natural Language Query Engine
 
 Simple natural-language analytics queries like:
 
@@ -88,7 +88,7 @@ Simple natural-language analytics queries like:
 
 This converts user queries → Spark logic.
 
-5️⃣ Processed Output Stored Back to Databricks
+5.Processed Output Stored Back to Databricks
 
 Final cleaned data is written back as a reusable Delta table:
 

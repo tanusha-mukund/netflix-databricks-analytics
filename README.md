@@ -106,3 +106,30 @@ Notebook	Databricks Collaborative Workspace
 ├── Netflix_Content_Analytics.ipynb   # Main Databricks Notebook
 ├── README.md                         # Project documentation (this file)
 └── /visuals                          # (Optional) Exported images
+
+
+Sample Insights Generated
+
+United States and India are the largest content producers
+
+Movies dominate the catalog compared to TV Shows
+
+Most content is rated TV-MA, TV-14, or PG-13
+
+Significant growth in the 2010s and 2020s
+
+International content categories are becoming increasingly common
+
+📝 Summary Metrics
+
+Includes an automatically generated summary:
+
+Total titles
+
+Number of countries represented
+
+Number of unique category types
+
+Range of release years
+
+Average content age

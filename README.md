@@ -128,6 +128,17 @@ Total titles
 
 Number of countries represented
 
+About the Developer
+
+Tanusha Mukund
+MSBA Student @ UIUC · Data Analyst · A/B Testing · SQL · Python · Spark · Adobe Analytics
+
+Connect with me here:
+🔗 LinkedIn: (your link here)
+🔗 GitHub: (your repo link here)
+
+If this project was useful, feel free to star the repo!
+
 Number of unique category types
 
 Range of release years

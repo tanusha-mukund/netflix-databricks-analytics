@@ -58,6 +58,10 @@ Examples:
 The cleaned dataset is stored as a Delta table for reuse:
 workspace.default.netflix_processed
 
+### 6. Supervised ML Prediction
+
+Random Forest was used to predict which movies would be a "Hit"
+
 ##Technologies Used
 
 Component	Technology
